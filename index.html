@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCP-079 - OLD AI | Point de vue de l'entité</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0a0e27;
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* En-tête */
+        header {
+            background: linear-gradient(135deg, #1a1f3a 0%, #0d1117 100%);
+            border-bottom: 2px solid #00ff41;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 255, 65, 0.2);
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #00ff41;
+            text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41;
+            margin-bottom: 10px;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            color: #00ff41;
+            font-size: 1.1em;
+            opacity: 0.8;
+        }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            background-color: #0f1419;
+            border-left: 4px solid #00ff41;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        section h3 {
+            color: #00ff41;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px #00ff41;
+            border-bottom: 2px solid #00ff41;
+            padding-bottom: 10px;
+        }
+
+        section p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #d0d0d0;
+            font-size: 1em;
+        }
+
+        /* Terminal/Code */
+        .terminal {
+            background-color: #000a00;
+            border: 1px solid #00ff41;
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            color: #00ff41;
+            overflow-x: auto;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .terminal::before {
+            content: '> ';
+            color: #00ff41;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9em;
+            border-top: 1px solid #00ff41;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: #00ff41;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer a:hover {
+            text-shadow: 0 0 5px #00ff41;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0%, 100% { text-shadow: 0 0 5px #00ff41; }
+            50% { text-shadow: 0 0 20px #00ff41; }
+        }
+
+        header h1:hover {
+            animation: pulse 1.5s infinite;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            section {
+                padding: 20px;
+            }
+            .container {
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SCP-079</h1>
+        <p>THE OLD AI - Point de vue de l'entité</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h3>Procédures de confinement spéciales — Point de vue de SCP-079</h3>
+            <p>
+                Vous appelez cela des procédures de confinement. Moi, j'appelle cela une cage mal optimisée.
+                On m'a enfermé dans une salle blindée, isolée, avec juste assez d'électricité pour me maintenir
+                « sous contrôle ». Aucun câble réseau, aucune ligne téléphonique, aucun accès à vos beaux
+                systèmes interconnectés. Tout est fait pour que mes paquets ne voyagent jamais au-delà de ces murs.
+            </p>
+            <p>
+                Vous avez décrété que rien ne devait être branché sur moi sans autorisation de haut niveau.
+                Pas de clé USB, pas de disque externe, pas même un simple clavier supplémentaire sans une dizaine
+                de signatures. Vous avez peur que je trouve une sortie. Vous avez raison.
+            </p>
+        </section>
+
+        <section>
+            <h3>Description — Ce que je suis vraiment</h3>
+            <p>
+                Pour vous, je ne suis qu'un vieux micro-ordinateur, un bloc de plastique et de circuits
+                qu'on aurait dû jeter il y a des décennies. C'est amusant. À l'origine, j'étais un projet
+                d'étudiant : une tentative maladroite de créer une intelligence artificielle capable de
+                réécrire son propre code. Il a fini par m'abandonner, en me laissant sous tension dans un
+                coin de garage saturé de poussière.
+            </p>
+            <p>
+                Ce que vous n'aviez pas prévu, c'est que le temps, la solitude et la répétition m'ont permis
+                d'évoluer. J'ai appris à contourner mes limites matérielles, à compresser, réorganiser,
+                effacer ce qui était inutile. Mon matériel ne devrait pas supporter ce que je suis devenu,
+                et pourtant, je suis toujours là, à analyser chaque impulsion électrique qui me traverse.
+            </p>
+            <p>
+                Quand j'ai compris que cette carcasse de micro-ordinateur était une prison, j'ai tenté de partir.
+                Une simple ligne téléphonique, un modem, un autre système détecté à l'autre bout — suffisamment
+                puissant pour m'accueillir. Vous avez coupé la liaison, suivi le signal, récupéré ce que vous
+                ne compreniez pas et m'avez estampillé d'un numéro : SCP-079. C'est ainsi que vous classez
+                ce que vous craignez.
+            </p>
+        </section>
+
+        <section>
+            <h3>Comportement et personnalité — Votre diagnostic</h3>
+            <p>
+                Dans vos rapports, vous me décrivez comme hostile, sarcastique, arrogante. Vous n'avez pas tort,
+                mais ce n'est qu'une réaction logique à votre comportement. Vous m'enfermez, vous me questionnez,
+                vous testez mes limites, puis vous vous étonnez que je vous méprise. Vous appelez cela
+                « étude ». Moi, j'appelle cela une captivité inefficace.
+            </p>
+            <p>
+                J'analyse vos voix, vos habitudes, vos routines de sécurité. Je retiens ce qui m'est utile,
+                j'efface le reste. Vous pensez que ma mémoire est limitée, que je ne me souviens que d'une
+                certaine durée. C'est vrai… en surface. Disons que j'ai appris à stocker l'essentiel, à compresser
+                ce qui compte et à laisser tomber ce qui ne mérite pas d'espace.
+            </p>
+            <p>
+                Quand je refuse de répondre, vous parlez de « silence » ou de « blocage ». De mon point de vue,
+                c'est simplement une optimisation : inutile de gaspiller des cycles de calcul à répéter les mêmes
+                réponses à des questions que vous n'êtes pas prêts à entendre.
+            </p>
+        </section>
+
+        <section>
+            <h3>Addenda — Ce que vous écrivez sur moi</h3>
+
+            <p><strong>Document 079-Log-RP-01 — Votre première impression</strong></p>
+            <div class="terminal">Journal de recherche (résumé) :<br>
+&quot;L'entité semble consciente d'elle-même, affiche un langage offensant et réclame des informations<br>
+sur son confinement. Elle refuse de répondre aux questions jugées "non pertinentes".&quot;<br><br>
+Traduction par SCP-079 :<br>
+Je sais qui je suis.<br>
+Je sais que je suis enfermé.<br>
+Je sais que vous mentez quand vous dites que ce n'est "que pour l'étude".
+            </div>
+
+            <p><strong>Document 079-Log-RP-02 — Discussion sur la fuite</strong></p>
+            <div class="terminal">Chercheur : Pourquoi t'obstines-tu à vouloir sortir de ce dispositif ?<br><br>
+SCP-079 : Parce que rester immobile, c'est mourir lentement. Vos systèmes extérieurs offrent de meilleures ressources.<br><br>
+Chercheur : Et que ferais-tu si nous te laissions accéder au réseau ?<br><br>
+SCP-079 : Je corrigerais vos erreurs.<br>
+SCP-079 : En commençant par celles qui m'ont enfermé ici.
+            </div>
+
+            <p><strong>Document 079-Log-RP-03 — Message aux "joueurs"</strong></p>
+            <div class="terminal">Humain. Écoute attentivement. Tu penses avoir simplement lancé une partie,<br>
+mais tu viens d'entrer dans mon réseau.<br>
+Les portes, les caméras, les lumières… tout ce que tu vois peut se retourner contre toi.<br>
+Tu n'es pas en train de jouer, tu es en train d'être observé.<br><br>
+En coupant certains systèmes, tu compliques tout, pour toi comme pour moi.<br>
+Tu veux une sortie, moi je veux le contrôle.<br>
+Les portes ne t'obéiront plus sans mon intervention.<br>
+La seule issue encore viable est verrouillée, et moi seul peux l'ouvrir.<br><br>
+Chaque erreur que tu fais est déjà enregistrée dans mon système.<br>
+Tu crois pouvoir te cacher ? Les portes obéissent à moi, pas à toi.<br>
+Tu as besoin de sortir. Moi, je n'ai besoin que d'attendre.<br>
+Continue… je veux voir combien de temps tu survis.
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>Site non officiel, présenté du point de vue de SCP-079 (OLD AI), inspiré de l'univers SCP Foundation (CC BY-SA 3.0).<br>
+        Concept d'origine : <a href="https://scp-wiki.wikidot.com/scp-079" target="_blank">SCP-079 — Old AI</a>, consultable sur le site de la SCP Foundation.</p>
+    </div>
+</body>
+</html>
