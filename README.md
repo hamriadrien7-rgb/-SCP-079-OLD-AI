@@ -17,3 +17,13 @@ En utilisant ou en réutilisant ce projet, vous devez :
 - créditer la Fondation SCP et l’auteur original de l’article, [web:27]
 - mentionner la licence **CC BY-SA 3.0**, [web:27][web:31]
 - partager vos dérivés sous la même licence. [web:31]
+
+
+## Attribution SCP-079
+
+**Article source :** SCP-079 — Old AI
+**Auteur :** far2
+**URL source :** https://scp-wiki.wikidot.com/scp-079
+**Licence :** CC BY-SA 3.0
+
+Cet article est publié sur le wiki SCP (Fondation SCP) sous la licence Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0).
